@@ -1,0 +1,39 @@
+/* UNIVERSAL SELECTOR */
+/* *{
+    color: aqua;
+} */
+
+/* TYPE SELECTOR */
+/* Single */
+/* h1{
+    color: red;
+} */
+/* Multiple */
+/* div,span,p{
+    color: red;
+} */
+
+/* CLASS SELECTOR */
+/* .note{
+    color: blue;
+} */
+
+/* ID SELECTOR */
+/* #my-div{
+    color: red;
+} */
+
+/* CHILD SELECTOR */
+/* span >h1{
+    color: red;
+} */
+
+/* DESCENDANT SELECTOR
+/* div p{ 
+    color: red;
+} */
+
+/* ADJCENDT SIBLING SELECTOR */
+h1~p{
+    color: red;
+}
